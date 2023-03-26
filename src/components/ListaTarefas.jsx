@@ -40,7 +40,7 @@ const [nextId, setNextId] = useState(1);
     return (
         <div>
             {/* Título da lista de tarefas */}
-            <h1>Lista de Tarefas</h1>
+            <h3>Lista de Tarefas 2</h3>
             {/* Formulário para adicionar itens à lista */}
             <form onSubmit={addItem}>
                 {/* Campo de entrada para o item */}

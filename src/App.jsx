@@ -1,16 +1,18 @@
-import React from 'react'
-import Aula1 from './components/Aula1'
-import './App.css'
-import ListaTarefas from './components/ListaTarefas'
-
+import './App.css';
+import { Exemplo_usaState } from './components/Exemplo_usaState';
+import ListaTarefas from './components/ListaTarefas';
+import  UsandoTodoLista from './components/UsandoTodoLista2';
 function App() {
-
 
   return (
     <div className="App">
-      <ListaTarefas/>
+      
+      <Exemplo_usaState></Exemplo_usaState>
+      <br />
+      <ListaTarefas></ListaTarefas>
     </div>
-  )
+
+  );
 }
 
-export default App
+export default App;
